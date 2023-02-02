@@ -13,9 +13,7 @@
 - Esses serviços irão inicializar um container chamado `store_manager` e outro chamado `store_manager_db`;
 - A partir daqui você pode rodar o container `store_manager` via CLI ou abri-lo no VS Code.
 
-> :information_source: Opção 1: Use o comando `docker-compose run node npm test`, ou para acessar o container e executar lá:
-
-> :information_source: Opção 2: Use o comando `docker exec -it store_manager bash` e sigas passos abaixo.
+> :information_source: Opção 1: Use o comando `docker exec -it store_manager bash` e sigas passos abaixo.
 
 - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
 
